@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064050",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "study_at_korea",
+  "fields": [
+    {
+      "fieldName": "titleUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "StudyAtKorea",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "file",
+      "otherEntityRelationshipName": "studyAtKorea",
+      "relationshipName": "file",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

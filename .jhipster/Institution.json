@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064052",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "institution",
+  "fields": [
+    {
+      "fieldName": "institutionType",
+      "fieldType": "InstitutType",
+      "fieldValues": "COLLEGEANDLYCEUM,KOREANUNIVERSITY,UZBEKISTANUNIVERSITY,SCHOOL"
+    },
+    {
+      "fieldName": "titleUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "logoName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "logoData",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Institution",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "file",
+      "otherEntityRelationshipName": "institution",
+      "relationshipName": "file",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

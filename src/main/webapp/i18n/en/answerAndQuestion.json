@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "answerAndQuestion": {
+      "home": {
+        "title": "Answer And Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Answer And Question",
+        "createOrEditLabel": "Create or edit a Answer And Question",
+        "notFound": "No Answer And Questions found"
+      },
+      "created": "A new Answer And Question is created with identifier {{ param }}",
+      "updated": "A Answer And Question is updated with identifier {{ param }}",
+      "deleted": "A Answer And Question is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Answer And Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Answer And Question"
+      },
+      "id": "ID",
+      "questionUz": "Question Uz",
+      "questionRu": "Question Ru",
+      "questionKr": "Question Kr",
+      "answerUz": "Answer Uz",
+      "answerRu": "Answer Ru",
+      "answerKr": "Answer Kr"
+    }
+  }
+}

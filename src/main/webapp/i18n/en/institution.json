@@ -1,0 +1,33 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "institution": {
+      "home": {
+        "title": "Institutions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Institution",
+        "createOrEditLabel": "Create or edit a Institution",
+        "notFound": "No Institutions found"
+      },
+      "created": "A new Institution is created with identifier {{ param }}",
+      "updated": "A Institution is updated with identifier {{ param }}",
+      "deleted": "A Institution is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Institution {{ id }}?"
+      },
+      "detail": {
+        "title": "Institution"
+      },
+      "id": "ID",
+      "institutionType": "Institution Type",
+      "titleUz": "Title Uz",
+      "titleRu": "Title Ru",
+      "titleKr": "Title Kr",
+      "contentUz": "Content Uz",
+      "contentRu": "Content Ru",
+      "contentKr": "Content Kr",
+      "logoName": "Logo Name",
+      "logoData": "Logo Data",
+      "file": "File"
+    }
+  }
+}

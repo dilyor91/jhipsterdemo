@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064043",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "center_structure",
+  "fields": [
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CenterStructure",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

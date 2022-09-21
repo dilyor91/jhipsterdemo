@@ -1,0 +1,5 @@
+export enum FileEntity {
+  STUDYATKOREA = 'STUDYATKOREA',
+
+  INSTITUION = 'INSTITUION',
+}

@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "studyAtKorea": {
+      "home": {
+        "title": "Study At Koreas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Study At Korea",
+        "createOrEditLabel": "Create or edit a Study At Korea",
+        "notFound": "No Study At Koreas found"
+      },
+      "created": "A new Study At Korea is created with identifier {{ param }}",
+      "updated": "A Study At Korea is updated with identifier {{ param }}",
+      "deleted": "A Study At Korea is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Study At Korea {{ id }}?"
+      },
+      "detail": {
+        "title": "Study At Korea"
+      },
+      "id": "ID",
+      "titleUz": "Title Uz",
+      "titleRu": "Title Ru",
+      "titleKr": "Title Kr",
+      "contentUz": "Content Uz",
+      "contentRu": "Content Ru",
+      "contentKr": "Content Kr",
+      "file": "File"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "InstitutType": {
+      "null": "",
+      "COLLEGEANDLYCEUM": "COLLEGEANDLYCEUM",
+      "KOREANUNIVERSITY": "KOREANUNIVERSITY",
+      "UZBEKISTANUNIVERSITY": "UZBEKISTANUNIVERSITY",
+      "SCHOOL": "SCHOOL"
+    }
+  }
+}
