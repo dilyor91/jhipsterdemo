@@ -1,0 +1,68 @@
+import React, { useEffect, useState } from 'react';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
+import { Translate } from 'react-jhipster';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { useAppDispatch, useAppSelector } from 'app/config/store';
+import { getEntity, deleteEntity } from './time-table.reducer';
+
+export const TimeTableDeleteDialog = () => {
+  const dispatch = useAppDispatch();
+
+  const location = useLocation();
+  const navigate = useNavigate();
+  const { id } = useParams<'id'>();
+
+  const [loadModal, setLoadModal] = useState(false);
+
+  useEffect(() => {
+    dispatch(getEntity(id));
+    setLoadModal(true);
+  }, []);
+
+  const timeTableEntity = useAppSelector(state => state.timeTable.entity);
+  const updateSuccess = useAppSelector(state => state.timeTable.updateSuccess);
+
+  const handleClose = () => {
+    navigate('/time-table');
+  };
+
+  useEffect(() => {
+    if (updateSuccess && loadModal) {
+      handleClose();
+      setLoadModal(false);
+    }
+  }, [updateSuccess]);
+
+  const confirmDelete = () => {
+    dispatch(deleteEntity(timeTableEntity.id));
+  };
+
+  return (
+    <Modal isOpen toggle={handleClose}>
+      <ModalHeader toggle={handleClose} data-cy="timeTableDeleteDialogHeading">
+        <Translate contentKey="entity.delete.title">Confirm delete operation</Translate>
+      </ModalHeader>
+      <ModalBody id="jhipsterSampleApplicationApp.timeTable.delete.question">
+        <Translate contentKey="jhipsterSampleApplicationApp.timeTable.delete.question" interpolate={{ id: timeTableEntity.id }}>
+          Are you sure you want to delete this TimeTable?
+        </Translate>
+      </ModalBody>
+      <ModalFooter>
+        <Button color="secondary" onClick={handleClose}>
+          <FontAwesomeIcon icon="ban" />
+          &nbsp;
+          <Translate contentKey="entity.action.cancel">Cancel</Translate>
+        </Button>
+        <Button id="jhi-confirm-delete-timeTable" data-cy="entityConfirmDeleteButton" color="danger" onClick={confirmDelete}>
+          <FontAwesomeIcon icon="trash" />
+          &nbsp;
+          <Translate contentKey="entity.action.delete">Delete</Translate>
+        </Button>
+      </ModalFooter>
+    </Modal>
+  );
+};
+
+export default TimeTableDeleteDialog;

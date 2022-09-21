@@ -1,0 +1,54 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064045",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "file",
+  "fields": [
+    {
+      "fieldName": "orginalName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fileFormat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "filePath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileEntity",
+      "fieldType": "FileEntity",
+      "fieldValues": "STUDYATKOREA,INSTITUION"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "File",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "institution",
+      "otherEntityRelationshipName": "file",
+      "relationshipName": "institution",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "studyAtKorea",
+      "otherEntityRelationshipName": "file",
+      "relationshipName": "studyAtKorea",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

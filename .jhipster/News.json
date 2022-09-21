@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064048",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "news",
+  "fields": [
+    {
+      "fieldName": "titleUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postedDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "News",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

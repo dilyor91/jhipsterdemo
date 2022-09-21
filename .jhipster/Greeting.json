@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064042",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "greeting",
+  "fields": [
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Greeting",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

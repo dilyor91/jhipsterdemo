@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "workPlan": {
+      "home": {
+        "title": "Work Plans",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Plan",
+        "createOrEditLabel": "Create or edit a Work Plan",
+        "notFound": "No Work Plans found"
+      },
+      "created": "A new Work Plan is created with identifier {{ param }}",
+      "updated": "A Work Plan is updated with identifier {{ param }}",
+      "deleted": "A Work Plan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Plan {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Plan"
+      },
+      "id": "ID",
+      "titleUz": "Title Uz",
+      "titleRu": "Title Ru",
+      "titleKr": "Title Kr",
+      "contentUz": "Content Uz",
+      "contentRu": "Content Ru",
+      "contentKr": "Content Kr",
+      "planType": "Plan Type"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064053",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "answer_and_question",
+  "fields": [
+    {
+      "fieldName": "questionUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "questionRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "questionKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answerUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answerRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answerKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AnswerAndQuestion",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

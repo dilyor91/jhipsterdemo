@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "centerStructure": {
+      "home": {
+        "title": "Center Structures",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Center Structure",
+        "createOrEditLabel": "Create or edit a Center Structure",
+        "notFound": "No Center Structures found"
+      },
+      "created": "A new Center Structure is created with identifier {{ param }}",
+      "updated": "A Center Structure is updated with identifier {{ param }}",
+      "deleted": "A Center Structure is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Center Structure {{ id }}?"
+      },
+      "detail": {
+        "title": "Center Structure"
+      },
+      "id": "ID",
+      "contentUz": "Content Uz",
+      "contentRu": "Content Ru",
+      "contentKr": "Content Kr"
+    }
+  }
+}

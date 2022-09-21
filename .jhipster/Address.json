@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921064047",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "address",
+  "fields": [
+    {
+      "fieldName": "titleUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Address",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

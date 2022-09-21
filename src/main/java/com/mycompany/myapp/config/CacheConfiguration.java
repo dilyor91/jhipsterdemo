@@ -48,6 +48,37 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.Banner.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Logo.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Greeting.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CenterStructure.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.OurHistory.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.File.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkPlan.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Address.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.News.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Events.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.StudyAtKorea.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.StudyAtKorea.class.getName() + ".files");
+            createCache(cm, com.mycompany.myapp.domain.TimeTable.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Institution.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Institution.class.getName() + ".files");
+            createCache(cm, com.mycompany.myapp.domain.AnswerAndQuestion.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Image.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Album.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Album.class.getName() + ".images");
+            createCache(cm, com.mycompany.myapp.domain.Region.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Country.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Location.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Department.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.mycompany.myapp.domain.Task.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.mycompany.myapp.domain.Employee.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.mycompany.myapp.domain.Job.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.mycompany.myapp.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

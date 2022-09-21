@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "ourHistory": {
+      "home": {
+        "title": "Our Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Our History",
+        "createOrEditLabel": "Create or edit a Our History",
+        "notFound": "No Our Histories found"
+      },
+      "created": "A new Our History is created with identifier {{ param }}",
+      "updated": "A Our History is updated with identifier {{ param }}",
+      "deleted": "A Our History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Our History {{ id }}?"
+      },
+      "detail": {
+        "title": "Our History"
+      },
+      "id": "ID",
+      "contentUz": "Content Uz",
+      "contentRu": "Content Ru",
+      "contentKr": "Content Kr",
+      "postedDate": "Posted Date"
+    }
+  }
+}
