@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "fileTopic": {
+      "home": {
+        "title": "File Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new File Topic",
+        "createOrEditLabel": "Create or edit a File Topic",
+        "notFound": "No File Topics found"
+      },
+      "created": "A new File Topic is created with identifier {{ param }}",
+      "updated": "A File Topic is updated with identifier {{ param }}",
+      "deleted": "A File Topic is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete File Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "File Topic"
+      },
+      "id": "ID",
+      "fileOrginalName": "File Orginal Name",
+      "fileNameUz": "File Name Uz",
+      "fileNameRu": "File Name Ru",
+      "fileNameKr": "File Name Kr",
+      "fileType": "File Type",
+      "fileSize": "File Size",
+      "filePath": "File Path",
+      "materialTopicLevel": "Material Topic Level"
+    }
+  }
+}

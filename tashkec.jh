@@ -152,7 +152,6 @@ entity FileTopic {
 }
 
 entity MaterialTopicLevel {
-    materialTopic MaterialTopic,
     titleUz String,
     titleRu String,
     titleKr String
@@ -175,6 +174,9 @@ enum InstitutType {
     SCHOOL
 }
 
+relationship OneToOne {
+    MaterialTopic{materialTopicLevel} to MaterialTopicLevel
+}
 relationship OneToMany {
     Album to Image{image}
     Institution to File{institution}

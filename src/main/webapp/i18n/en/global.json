@@ -31,6 +31,9 @@
         "employee": "Employee",
         "job": "Job",
         "jobHistory": "Job History",
+        "materialTopic": "Material Topic",
+        "fileTopic": "File Topic",
+        "materialTopicLevel": "Material Topic Level",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
