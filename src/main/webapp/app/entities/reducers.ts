@@ -22,6 +22,9 @@ import task from 'app/entities/task/task.reducer';
 import employee from 'app/entities/employee/employee.reducer';
 import job from 'app/entities/job/job.reducer';
 import jobHistory from 'app/entities/job-history/job-history.reducer';
+import materialTopic from 'app/entities/material-topic/material-topic.reducer';
+import fileTopic from 'app/entities/file-topic/file-topic.reducer';
+import materialTopicLevel from 'app/entities/material-topic-level/material-topic-level.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -49,6 +52,9 @@ const entitiesReducers = {
   employee,
   job,
   jobHistory,
+  materialTopic,
+  fileTopic,
+  materialTopicLevel,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 

@@ -79,6 +79,10 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.Job.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Job.class.getName() + ".tasks");
             createCache(cm, com.mycompany.myapp.domain.JobHistory.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MaterialTopic.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.FileTopic.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MaterialTopicLevel.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MaterialTopicLevel.class.getName() + ".fileTopics");
             // jhipster-needle-ehcache-add-entry
         };
     }

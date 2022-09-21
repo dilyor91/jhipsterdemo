@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "materialTopic": {
+      "home": {
+        "title": "Material Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Material Topic",
+        "createOrEditLabel": "Create or edit a Material Topic",
+        "notFound": "No Material Topics found"
+      },
+      "created": "A new Material Topic is created with identifier {{ param }}",
+      "updated": "A Material Topic is updated with identifier {{ param }}",
+      "deleted": "A Material Topic is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Material Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Material Topic"
+      },
+      "id": "ID",
+      "titleUz": "Title Uz",
+      "titleRu": "Title Ru",
+      "titleKr": "Title Kr",
+      "materialTopicLevel": "Material Topic Level"
+    }
+  }
+}

@@ -43,7 +43,10 @@
       "Task",
       "Employee",
       "Job",
-      "JobHistory"
+      "JobHistory",
+      "MaterialTopic",
+      "FileTopic",
+      "MaterialTopicLevel"
     ],
     "entitySuffix": "",
     "gitCompany": "",
@@ -51,7 +54,7 @@
     "jhipsterVersion": "7.9.3",
     "jwtSecretKey": "MzUzMzBmMDhiZDRmZmM3NGVmNTlkYTU5YzA4MWE3MzRlMzk5Njk5MTcwMzJkNDJmOTRhNmQ1YzgyYjQxNDdjYzRjOGM4MzI4YjAzZTY1ODdlMTBhODgzMmQzZDE2M2E1YTVhNTRkZjRkY2MxN2NlZjhlMGQ3MzhiYjdjOTViZTU=",
     "languages": ["en"],
-    "lastLiquibaseTimestamp": 1663742463000,
+    "lastLiquibaseTimestamp": 1663745175000,
     "messageBroker": false,
     "nativeLanguage": "en",
     "otherModules": [],

@@ -27,6 +27,9 @@ import Task from './task';
 import Employee from './employee';
 import Job from './job';
 import JobHistory from './job-history';
+import MaterialTopic from './material-topic';
+import FileTopic from './file-topic';
+import MaterialTopicLevel from './material-topic-level';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -58,6 +61,9 @@ export default () => {
         <Route path="employee/*" element={<Employee />} />
         <Route path="job/*" element={<Job />} />
         <Route path="job-history/*" element={<JobHistory />} />
+        <Route path="material-topic/*" element={<MaterialTopic />} />
+        <Route path="file-topic/*" element={<FileTopic />} />
+        <Route path="material-topic-level/*" element={<MaterialTopicLevel />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>

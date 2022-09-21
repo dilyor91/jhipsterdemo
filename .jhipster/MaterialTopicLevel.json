@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921072615",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "material_topic_level",
+  "fields": [
+    {
+      "fieldName": "titleUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titleKr",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MaterialTopicLevel",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "fileTopic",
+      "otherEntityRelationshipName": "materialTopicLevel",
+      "relationshipName": "fileTopic",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

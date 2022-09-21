@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20220921072614",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "file_topic",
+  "fields": [
+    {
+      "fieldName": "fileOrginalName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileNameUz",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileNameRu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileNameKr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "filePath",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "FileTopic",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "materialTopicLevel",
+      "otherEntityRelationshipName": "fileTopic",
+      "relationshipName": "materialTopicLevel",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

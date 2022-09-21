@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "materialTopicLevel": {
+      "home": {
+        "title": "Material Topic Levels",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Material Topic Level",
+        "createOrEditLabel": "Create or edit a Material Topic Level",
+        "notFound": "No Material Topic Levels found"
+      },
+      "created": "A new Material Topic Level is created with identifier {{ param }}",
+      "updated": "A Material Topic Level is updated with identifier {{ param }}",
+      "deleted": "A Material Topic Level is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Material Topic Level {{ id }}?"
+      },
+      "detail": {
+        "title": "Material Topic Level"
+      },
+      "id": "ID",
+      "titleUz": "Title Uz",
+      "titleRu": "Title Ru",
+      "titleKr": "Title Kr",
+      "fileTopic": "File Topic"
+    }
+  }
+}
