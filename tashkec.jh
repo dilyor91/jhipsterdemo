@@ -135,6 +135,29 @@ entity Album {
     titleKr String
 }
 
+entity MaterialTopic {
+    titleUz String,
+    titleRu String,
+    titleKr String
+}
+
+entity FileTopic {
+    fileOrginalName String,
+    fileNameUz String,
+    fileNameRu String,
+    fileNameKr String,
+    fileType String,
+    fileSize Long,
+    filePath String
+}
+
+entity MaterialTopicLevel {
+    materialTopic MaterialTopic,
+    titleUz String,
+    titleRu String,
+    titleKr String
+}
+
 enum PlanType {
     MONTH,
     YEAR
@@ -156,6 +179,7 @@ relationship OneToMany {
     Album to Image{image}
     Institution to File{institution}
     StudyAtKorea to File{studyAtKorea}
+    MaterialTopicLevel to FileTopic{materialTopicLevel}
 }
 
 entity Region {
